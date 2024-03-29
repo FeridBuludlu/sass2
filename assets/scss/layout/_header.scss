@@ -1,0 +1,102 @@
+@import "./grid";
+
+.container{
+    margin: 0 auto;
+}
+
+.header_left {
+    padding: 20px;
+    background-color: rgb(255, 177, 113);
+    margin: 30px;
+    border: 1px solid rgb(255, 185, 128);
+    width: 100px;
+    font-family: "Jost", sans-serif;
+    a{
+        text-decoration: none;
+        color: white
+    }
+}
+.header_right{
+    @extend .flex;
+    gap: 20px;
+    color: white;
+    
+    .user{
+        width: 50px;
+        height: 50px;
+        border: 1px solid rgb(255, 115, 0);
+        border-radius: 50%;
+        background-color:  rgb(255, 115, 0);
+        @extend .flex;
+    }
+    .lock{
+        font-family: "Jost", sans-serif;
+    }
+}
+.header_top{
+    display: flex;
+    justify-content: space-evenly
+}
+.header_middle{
+    @extend .flex;
+    gap: 20px;
+    font-family: "Jost", sans-serif;
+    ul{
+        display: flex;
+        list-style-type: none;
+        gap: 40px;
+    }
+    
+    a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }
+}
+.header_2{
+    background-size: cover;
+    padding: 165px 0;
+}
+.header_1{
+    border-bottom: 1px solid white;
+}
+
+.all__header{
+    background-image: url(https://arid-html.vercel.app/main-file/dist/assets/images/hero/h4.webp);
+
+}
+
+.place{
+    text-align: center;
+    h1{
+        font-size: 80px;
+        font-family: "Poppins", sans-serif;
+        color: transparent;
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: white;
+        text-shadow: hsla(0, 0%, 100%, 0.6) -2px 2px 30px;
+    }
+}
+    p{
+        font-size: 25px;
+        font-family: "Jost", sans-serif;
+        color: white;
+    }
+.buttons{
+    @extend .flex;
+    gap: 30px;
+    padding: 40px;
+    button{
+        width: 300px;
+        height: 70px;
+        border-color:rgb(221, 99, 0) ;
+        background: transparent;
+        font-family: "Poppins", sans-serif;
+        color: rgb(255, 173, 126) ;
+        font-size: 20px;
+        
+    }
+    .fourt_button{
+        background-color: rgb(255, 115, 0);
+        color: white;
+    }
+}
