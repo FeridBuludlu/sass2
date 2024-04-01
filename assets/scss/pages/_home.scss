@@ -1,0 +1,253 @@
+@import "../layout/grid";
+
+.row{
+    @extend .flex;
+    justify-content: space-evenly;
+    .card{
+        img{
+            width: 100%;
+        }
+
+        .card-body{
+            h5{
+                font-size: 22px;
+                font-family: "Playfair Display", serif;
+            }
+            i{
+                color: #FF7C5B;
+            }
+            .buttons_explore{
+                padding-top: 30px;
+                a{
+                    text-decoration: none;
+                    font-size: 16px;
+                    font-weight: bold;
+                    color: #FF7C5B;
+                }
+            }
+        }
+    }
+}
+
+.title_tour{
+    padding: 100px;
+    h4{
+        font-size: 24px;
+        font-family: "Satisfy", cursive;
+        color: #FF7C5B;
+    }
+    h2{
+        font-size: 40px;
+    }
+}
+
+.button_view{
+    @extend .flex;
+    margin: 50px;
+    a{
+        text-decoration: none;
+        border: 1px solid #FF7C5B;
+        background-color: #FF7C5B;
+        padding: 20px 40px;
+        color: white;
+    }
+}
+
+.title2_tour{
+    text-align: center;
+    h4{
+        font-size: 24px;
+        font-family: "Satisfy", cursive;
+        color: #FF7C5B;
+    }
+    h2{
+        font-size: 40px;
+    }
+}
+
+.section_explore{
+    background-color: #fff4e2;
+    padding: 30px;
+    .destinations{
+        @extend .flex;
+        .card2{   
+            text-align: center;    
+            .card-body{
+                h3{
+                    font-size: 25px;
+                    font-family: "Playfair Display", serif;
+                }
+                h5{
+                    font-size: 18px;
+                    font-family: "Jost", sans-serif;
+                    color: #FF7C5B;
+                }
+            }
+        }
+    }
+}
+
+.row{
+    @extend .flex;
+    padding: 30px;
+    justify-content: space-evenly;
+    .card3{
+        text-align: center;
+        .card-body{
+            h5{
+                font-size: 22px;
+                font-family: "Playfair Display", serif;
+            }
+            p{
+                color: black;
+                font-size: 16px;
+                font-family: "Jost", sans-serif;
+            }
+        }
+    }
+}
+
+.title3_tour{
+    padding: 30px;
+    text-align: center;
+    h4{
+        font-size: 24px;
+        font-family: "Satisfy", cursive;
+        color: #FF7C5B;
+    }
+    h2{
+        font-size: 40px;
+    }
+}
+
+
+.logo{
+    @extend .flex;
+    justify-content: space-evenly;
+    margin: 30px;
+    div{
+        padding: 30px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+    }
+}
+
+.image_card{
+    @extend .flex;
+    gap: 40px;
+    position: relative;
+    .image_text{
+        position: absolute;
+        bottom: 0;
+        padding: 20px;
+        
+        ul{
+            list-style-type: none;
+            color: white;
+            display: flex;
+            font-size: 14spx;
+            font-family: "Jost", sans-serif;
+        }
+
+        .review{
+            display: flex;
+            gap: 20px;
+
+            span{
+                color: white;
+            }
+
+            ul{
+                list-style-type: none;
+                color: white;
+                display: flex;
+            }
+        }
+
+        h4{
+            color: rgb(255, 255, 255);
+            font-size: 22px;
+            font-family: "Playfair Display", serif;
+            padding-top: 10px;
+            padding-bottom: 10px;
+
+            
+        }
+        h4:hover{
+            color: #FF7C5B;
+        }
+        
+    }
+}
+
+
+.title4_tour{
+    padding: 30px;
+    text-align: center;
+    h4{
+        font-size: 24px;
+        font-family: "Satisfy", cursive;
+        color: #FF7C5B;
+    }
+    h2{
+        font-size: 40px;
+    }
+}
+
+.card4{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 10px;
+    img{
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    h5{
+        font-size: 22px;
+        font-family: "Playfair Display", serif;
+        padding-top: 20px;
+    }
+    p{
+        color: black;
+        font-size: 14px;
+        font-family: "Jost", sans-serif;
+        padding-top: 30px;
+    }
+    .buttons_explore{
+        padding-top: 30px;
+        a{
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+            color: #FF7C5B;
+        }
+    }
+}
+
+.instagram-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    .instagram {
+        flex-basis: calc(17% - 10px);
+        margin-bottom: 10px;
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+    }
+}
+.title4_tour{
+    padding: 30px;
+    text-align: center;
+    h4{
+        font-size: 24px;
+        font-family: "Satisfy", cursive;
+        color: #FF7C5B;
+    }
+    h2{
+        font-size: 40px;
+    }
+}

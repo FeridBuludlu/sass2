@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0; }
 
-.flex, .header_right, .header_right .user, .header_middle, .buttons {
+.flex, .header_right, .header_right .user, .header_middle, .buttons, .row, .button_view, .section_explore .destinations, .logo, .image_card {
   display: flex;
   align-items: center;
   justify-content: center; }
@@ -87,3 +87,180 @@ p {
   .buttons .fourt_button {
     background-color: #ff7300;
     color: white; }
+
+.flex, .header_right, .header_right .user, .header_middle, .buttons, .row, .button_view, .section_explore .destinations, .logo, .image_card {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.row {
+  justify-content: space-evenly; }
+  .row .card img {
+    width: 100%; }
+  .row .card .card-body h5 {
+    font-size: 22px;
+    font-family: "Playfair Display", serif; }
+  .row .card .card-body i {
+    color: #FF7C5B; }
+  .row .card .card-body .buttons_explore {
+    padding-top: 30px; }
+    .row .card .card-body .buttons_explore a {
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: bold;
+      color: #FF7C5B; }
+
+.title_tour {
+  padding: 100px; }
+  .title_tour h4 {
+    font-size: 24px;
+    font-family: "Satisfy", cursive;
+    color: #FF7C5B; }
+  .title_tour h2 {
+    font-size: 40px; }
+
+.button_view {
+  margin: 50px; }
+  .button_view a {
+    text-decoration: none;
+    border: 1px solid #FF7C5B;
+    background-color: #FF7C5B;
+    padding: 20px 40px;
+    color: white; }
+
+.title2_tour {
+  text-align: center; }
+  .title2_tour h4 {
+    font-size: 24px;
+    font-family: "Satisfy", cursive;
+    color: #FF7C5B; }
+  .title2_tour h2 {
+    font-size: 40px; }
+
+.section_explore {
+  background-color: #fff4e2;
+  padding: 30px; }
+  .section_explore .destinations .card2 {
+    text-align: center; }
+    .section_explore .destinations .card2 .card-body h3 {
+      font-size: 25px;
+      font-family: "Playfair Display", serif; }
+    .section_explore .destinations .card2 .card-body h5 {
+      font-size: 18px;
+      font-family: "Jost", sans-serif;
+      color: #FF7C5B; }
+
+.row {
+  padding: 30px;
+  justify-content: space-evenly; }
+  .row .card3 {
+    text-align: center; }
+    .row .card3 .card-body h5 {
+      font-size: 22px;
+      font-family: "Playfair Display", serif; }
+    .row .card3 .card-body p {
+      color: black;
+      font-size: 16px;
+      font-family: "Jost", sans-serif; }
+
+.title3_tour {
+  padding: 30px;
+  text-align: center; }
+  .title3_tour h4 {
+    font-size: 24px;
+    font-family: "Satisfy", cursive;
+    color: #FF7C5B; }
+  .title3_tour h2 {
+    font-size: 40px; }
+
+.logo {
+  justify-content: space-evenly;
+  margin: 30px; }
+  .logo div {
+    padding: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; }
+
+.image_card {
+  gap: 40px;
+  position: relative; }
+  .image_card .image_text {
+    position: absolute;
+    bottom: 0;
+    padding: 20px; }
+    .image_card .image_text ul {
+      list-style-type: none;
+      color: white;
+      display: flex;
+      font-size: 14spx;
+      font-family: "Jost", sans-serif; }
+    .image_card .image_text .review {
+      display: flex;
+      gap: 20px; }
+      .image_card .image_text .review span {
+        color: white; }
+      .image_card .image_text .review ul {
+        list-style-type: none;
+        color: white;
+        display: flex; }
+    .image_card .image_text h4 {
+      color: white;
+      font-size: 22px;
+      font-family: "Playfair Display", serif;
+      padding-top: 10px;
+      padding-bottom: 10px; }
+    .image_card .image_text h4:hover {
+      color: #FF7C5B; }
+
+.title4_tour {
+  padding: 30px;
+  text-align: center; }
+  .title4_tour h4 {
+    font-size: 24px;
+    font-family: "Satisfy", cursive;
+    color: #FF7C5B; }
+  .title4_tour h2 {
+    font-size: 40px; }
+
+.card4 {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 10px; }
+  .card4 img {
+    width: 100%;
+    padding-bottom: 20px; }
+  .card4 h5 {
+    font-size: 22px;
+    font-family: "Playfair Display", serif;
+    padding-top: 20px; }
+  .card4 p {
+    color: black;
+    font-size: 14px;
+    font-family: "Jost", sans-serif;
+    padding-top: 30px; }
+  .card4 .buttons_explore {
+    padding-top: 30px; }
+    .card4 .buttons_explore a {
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: bold;
+      color: #FF7C5B; }
+
+.instagram-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly; }
+  .instagram-gallery .instagram {
+    flex-basis: calc(17% - 10px);
+    margin-bottom: 10px; }
+    .instagram-gallery .instagram img {
+      width: 100%;
+      height: auto; }
+
+.title4_tour {
+  padding: 30px;
+  text-align: center; }
+  .title4_tour h4 {
+    font-size: 24px;
+    font-family: "Satisfy", cursive;
+    color: #FF7C5B; }
+  .title4_tour h2 {
+    font-size: 40px; }
